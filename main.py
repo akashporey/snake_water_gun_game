@@ -22,9 +22,10 @@ st.title("Snake-Water-Gun Game")
 # User input
 st.subheader("Make your move:")
 user_choice = st.selectbox("Choose:", ["Snake (s)", "Water (w)", "Gun (g)"])
+P_button=st.button("Play")
 
 # Map user input to code
-if user_choice:
+if p_button:
     user_choice_code = user_choice.split(" ")[1][1]  # Extract 's', 'w', or 'g'
 
     # Computer's move
