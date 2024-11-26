@@ -25,7 +25,7 @@ user_choice = st.selectbox("Choose:", ["Snake (s)", "Water (w)", "Gun (g)"])
 P_button=st.button("Play")
 
 # Map user input to code
-if p_button:
+if P_button:
     user_choice_code = user_choice.split(" ")[1][1]  # Extract 's', 'w', or 'g'
 
     # Computer's move
